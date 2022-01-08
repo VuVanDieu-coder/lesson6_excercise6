@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quy đổi tiền tệ</title>
+</head>
+<body>
+    <p><b>Quy đổi tiền tệ</b></p>
+    <p>Amount</p>
+    <input type="number" id="money" style="width: 250px">
+
+    <p>From Currencu</p>
+    <select name="" id="From_Currency">
+        <option value="VND">Vietnam</option>
+        <option value="USD">Đô la Mỹ</option>
+    </select>
+
+    <p>To Currency</p>
+    <select name="" id="To_Currency">
+        <option value="VND">Vietnam</option>
+        <option value="USD">Đô la Mỹ</option>
+    </select>
+
+    <button type="button" onclick="currency()" style="border: 1px solid black; background-color: green;"><b>Convert</b></button>
+    <br>
+    <div id="result"></div>
+</body>
+</html>
+<script src="currency.js"></script>
